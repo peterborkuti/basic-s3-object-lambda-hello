@@ -8,9 +8,7 @@ use lambda_runtime::{run, service_fn, Error, LambdaEvent};
 
 /**
 This s3 object lambda handler
-    * downloads the asked file
-    * creates a PNG thumbnail from it
-    * forward it to the browser
+Transforms everything into the text "Hello Rust"
 */
 pub(crate) async fn function_handler(
     event: LambdaEvent<S3ObjectLambdaEvent>,

@@ -21,12 +21,12 @@ serde = "1"
 tokio = { version = "1", features = ["macros"] }
 tracing = { version = "0.1" }
 tracing-subscriber = { version = "0.3", default-features = false, features = ["ansi", "fmt"] }
-aws-config = "0.55.0"
-aws-sdk-s3 = "0.25.1"
+aws-config = "0.55.3"
+aws-sdk-s3 = "0.28.0"
 mime = "0.3.16"
 async-trait = "0.1.66"
 ureq = "2.6.2"
-aws-smithy-http = "0.55.0"
+aws-smithy-http = "0.55.3"
 
 [dev-dependencies]
 mockall = "0.11.3"
